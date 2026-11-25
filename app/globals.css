@@ -18,3 +18,5 @@
 
 .dots { background-image: radial-gradient(#ffffff16 1px, transparent 1px); background-size: 28px 28px; }
 .glow-ring { background: conic-gradient(from 0deg, #C6F432, #22D3EE, #8B5CF6, #FF4D8D, #FF9F1C, #C6F432); }
+
+html { scroll-padding-top: 5rem; }
