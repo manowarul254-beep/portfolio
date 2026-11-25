@@ -297,7 +297,7 @@ export default function Portfolio() {
   const [top, setTop] = useState(false);
   useEffect(() => { const f = () => setTop(window.scrollY > 600); window.addEventListener("scroll", f); return () => window.removeEventListener("scroll", f); }, []);
   return (
-    <div className="dots relative overflow-x-hidden">
+    <div className="dots relative overflow-x-clip">
       <motion.div style={{ scaleX: bar }} className="fixed left-0 top-0 z-50 h-1.5 w-full origin-left bg-gradient-to-r from-[#C6F432] via-[#22D3EE] via-[#8B5CF6] to-[#FF4D8D]" />
       <div className="pointer-events-none fixed -left-24 -top-24 h-[28rem] w-[28rem] rounded-full bg-[#8B5CF6] opacity-35 blur-[110px]" />
       <div className="pointer-events-none fixed -right-24 top-1/3 h-96 w-96 rounded-full bg-[#FF4D8D] opacity-30 blur-[110px]" />
