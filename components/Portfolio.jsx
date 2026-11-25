@@ -17,7 +17,7 @@ const DATA = {
   projects: [
    { t: "My E-commerce Store", cat: "React", d: "Product pages, cart and checkout built from a Figma design.", c: "#C6F432", c2: "#22D3EE", live: "https://fasco-brown.vercel.app/", git: "https://github.com/manowarul254-beep/fasco.git" },
     { t: "My E-commerce Store", cat: "React", d: "Online store with product listing, category filters, pagination and a responsive cart experience.", c: "#8B5CF6", c2: "#FF4D8D",live: "https://exclusive-teal.vercel.app", git: "https://github.com/manowarul254-beep/Exclusive.git" },
-    { t: "[PROJECT 4]", cat: "Tailwind", d: "[SHORT DESCRIPTION]", c: "#22D3EE", c2: "#8B5CF6",live: "https://digital-agency-hksr.vercel.app/", git: "https://github.com/manowarul254-beep/digital-agency.git" },
+    { t: "Silicon Agency", cat: "Tailwind", d: "Multi-page agency website with services, portfolio, blog and contact pages, plus dark mode and a fully responsive layout.", c: "#22D3EE", c2: "#8B5CF6",live: "https://digital-agency-hksr.vercel.app/", git: "https://github.com/manowarul254-beep/digital-agency.git" },
   ],
 };
 const NAV = ["About", "Skills", "Projects", "Services", "Journey", "FAQ", "Contact"];
